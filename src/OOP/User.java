@@ -6,6 +6,7 @@ public class User {
     private String email;
     private String password;
 
+    //set -> void with parama
     public void setId(int id) {
         this.id = id;
     }
@@ -42,5 +43,18 @@ public class User {
         System.out.println("UserName : " + objUser.getUsername());
         System.out.println("Email : " + objUser.getEmail());
         System.out.println("Password : " + objUser.getPassword());
+
+        //create new object II
+        User obj = new User();
+        obj.setId(1);
+        obj.setUsername("sothearith");
+        obj.setEmail("rith@gmail.com");
+        obj.setPassword("rith12");
+        //method get from user
+        System.out.println("=============================");
+        System.out.println("ID : " + obj.getId());
+        System.out.println("UserName : " + obj.getUsername());
+        System.out.println("Email : " + obj.getEmail());
+        System.out.println("Password : " + obj.getPassword());
     }
 }
