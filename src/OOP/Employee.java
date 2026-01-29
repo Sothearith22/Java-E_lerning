@@ -1,4 +1,4 @@
-package oop_lerning;
+package OOP_Elerning;
 
 public class Employee {
     private int id;
