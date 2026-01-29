@@ -1,4 +1,4 @@
-package OPP;
+package OOP_lerning;
 import java.util.Scanner;
 
 public class Person {

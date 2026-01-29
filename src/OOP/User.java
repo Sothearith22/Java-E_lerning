@@ -1,4 +1,4 @@
-package OOP_Elerning;
+package OOP;
 
 public class User {
     private int id;

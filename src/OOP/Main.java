@@ -1,4 +1,4 @@
-package OOP_Elerning;
+package OOP;
 
 public class Main {
 
