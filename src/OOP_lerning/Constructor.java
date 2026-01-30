@@ -1,4 +1,4 @@
-package OPP;
+package OOP_lerning;
 
 public class Constructor {
 
